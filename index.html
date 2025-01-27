@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/scu6qtu.css">
+    <script src="./src/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="mobile-menu-closed">
+            <img class="header-logo" src="./assets/notion-logo.svg" alt="notion-logo">
+
+            <div>
+                <img class="burger-icon" src="./assets/burger-icon.png" alt="burger-icon">
+                <img class="hidden close-icon" src="./assets/close-icon.png" alt="close-icon">
+            </div>
+        </div>
+
+        <nav>
+
+            <div class="mobile-menu-open hidden">
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p class="nav-h1">Product</p>
+                        <img src="./assets/mobile-menu/arrow.svg" alt="arrow">
+                    </div>
+                    
+                    <div class="mobile-menu-card-container">
+                        <div class="mobile-menu-card">
+                            <img class="mobile-menu-icon" src="./assets/mobile-menu/VanillaStack general.svg" alt="notion-logo-general">
+                            <p class="nav-h2">VanillaStack</p>
+                            <p class="nav-body">Your life's work in one beautiful place</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <img class="mobile-menu-icon" src="./assets/mobile-menu/VanillaStack Calendar.svg" alt="notion-logo-calendar">
+                            <p class="nav-h2">VanillaStack Calendar</p>
+                            <p class="nav-body">Time and work, together</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <img class="mobile-menu-icon" src="./assets/mobile-menu/VanillaStack Mail.svg" alt="notion-logo-mail">
+                            <div class="coming-soon-contianer">
+                                <p class="nav-h2">VanillaStack Mail</p>
+                                <div class="coming-soon">
+                                    Coming Soon
+                                </div>
+                            </div>
+                            <p class="nav-body">A simpler, self-organizing inbox</p>
+                        </div>
+                    </div>
+
+                    <div class="mobile-menu-card-container-sm">
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">AI</p>
+                            <p class="nav-body">Integrated AI assistant</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">Docs</p>
+                            <p class="nav-body">Simple & powerful</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">Wikis</p>
+                            <p class="nav-body">Centralize your knowledge</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">Projects</p>
+                            <p class="nav-body">For every team or size</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">Sites</p>
+                            <p class="nav-body">Publish anythingi fast</p>
+                        </div>
+                        <div class="mobile-menu-card">
+                            <p class="nav-h2-sm">Forms</p>
+                            <p class="nav-body">Capture responses and requests</p>
+                        </div>
+
+                        <div class="mobile-menu-integrations-card">
+                            <p>
+                                Connect your tools seamlessly with <span>VanillaStack integrations</span>.
+                                Or, <span>get started with a template →</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p class="nav-h1">Teams</p>
+                        <img src="./assets/mobile-menu/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="mobile-menu-links">
+                        <p class="nav-h2">Product</p>
+                        <p class="nav-h2">Engineering</p>
+                        <p class="nav-h2">Design</p>
+                        <p class="nav-h2">Marketing</p>
+                        <p class="nav-h2">IT</p>
+                        <p class="nav-h2">Startups</p>
+                        <p class="nav-h2">Enterprise</p>
+                        <p class="nav-h2">Customer Stories</p>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p class="nav-h1">Individual</p>
+                        <img src="./assets/mobile-menu/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="mobile-menu-links">
+                        <p class="nav-h2">Personal</p>
+                        <p class="nav-h2">Students</p>
+                        <p class="nav-h2">Teachers</p>
+                        <p class="nav-h2">Creators</p>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p class="nav-h1">Download</p>
+                        <img src="./assets/mobile-menu/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="mobile-menu-links">
+                        <p class="nav-h2">iOS & Android</p>
+                        <p class="nav-h2">Mac & Windows</p>
+                        <p class="nav-h2">Calendar</p>
+                        <p class="nav-h2">Web Clipper</p>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p id="nav-h1-no-menu" class="nav-h1">Pricing</p>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-product">
+                    <div class="nav-h1-container">
+                        <p id="nav-h1-no-menu" class="nav-h1">Request a demo</p>
+                    </div>
+                </div>
+
+                <div class="cta-buttons-mobile">
+                    <button class="primary-cta-mobile">Get VanillaStack free</button>
+                    <button class="secondary-cta-mobile">Log in</button>
+                </div>
+
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       <section class="hero-section">
+            <div class="container">
+                <div>
+                    <div class="hero-content">
+                        <h1>
+                            The happier workspace
+                        </h1>
+                        <p>
+                            Write. Plan. Collaborate. With a little help from AI.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="cta-button primary">Get VanillaStack free</button>
+                            <button class="cta-button secondary">Request a demo</button>
+                        </div>
+                        <div class="trusted-teams">
+                            <p>
+                                Trusted by teams at
+                            </p>
+                            <div class="hero-logos">
+                                <img src="./assets/headspace-gr.svg" alt="headspace-gr">
+                                <img src="./assets/remote-gr-v2.svg" alt="remote-gr-v2">
+                                <img src="./assets/1password-gr.svg" alt="password-logo">
+                                <img src="./assets/figma-gr.svg" alt="figma-gr">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./assets/hero-illustration.svg" alt="people working together">
+                    </div>
+                    
+                </div>
+            </div>
+       </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                VanillaStack is a fictional SaaS product inspired by Notion.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
