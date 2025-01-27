@@ -181,6 +181,10 @@ nav {
     border-radius: 8px;
 }
 
+#cta-buttons-mobile {
+    z-index: 100;
+}
+
 .cta-buttons-mobile {
     display: flex;
     flex-direction: column;
